@@ -18,8 +18,7 @@ class Cipher:
                 ciphertext.append(chr((ord(char) + shift_distance - 65)
                                       % 26 + 97))
             else:
-                raise Exception('plaintext should include only \
-                                lowercase or uppercase characters')
+                raise Exception('plaintext should include only lowercase or uppercase letters')
         return ''.join(ciphertext)
 
     def decode(self, plaintext, shift_distance=None):
@@ -34,6 +33,5 @@ class Cipher:
                 ciphertext.append(chr((ord(char) - shift_distance + 65)
                                       % 26 + 97))
             else:
-                raise Exception('plaintext should include only lowercase \
-                                or uppercase characters')
+                raise Exception('plaintext should include only lowercase or uppercase letters')
         return ''.join(ciphertext)
