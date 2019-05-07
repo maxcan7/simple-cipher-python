@@ -34,7 +34,7 @@ class Cipher:
                 ciphertext.append(chr((ord(char) - shift_distance - 97)
                                       % 26 + 97))
             elif ord(char) >= 65 and ord(char) <= 90:
-                ciphertext.append(chr((ord(char) - shift_distance + 65)
+                ciphertext.append(chr((ord(char) - shift_distance - 65)
                                       % 26 + 97))
             else:
                 raise Exception('plaintext should include only lowercase or uppercase letters')
