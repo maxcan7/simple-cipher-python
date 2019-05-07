@@ -8,7 +8,7 @@ decode simple phrases. My code passes their test script, as well as some other
 important cases not included in their test script.
 
 ## What is a shift cipher?
-# (This is from the challenge README)
+### (This is from the challenge README)
 
 Shift ciphers are also called Caesar ciphers as they were used by Julius Caesar
 to scramble his messages to military personnel, so that they were purposefully
@@ -22,7 +22,7 @@ characters so that it is no longer legible.
 For example, when using a shift of 1, the letter _a_ would be shifted to _b_.
 
 ### Examples
-# (This is from the challenge README)
+#### (This is from the challenge README)
 
 When using a shift of _1_ (default):
 
@@ -133,27 +133,27 @@ The methods take two inputs, `plaintext` and `shift_distance`.
   lowercase characters will not be changed.
 
 ## Download
-# (This is from the challenge README)
+### (This is from the challenge README)
 
 Fork this repository to your account and clone it, or download it as a zip and
 extract the files.
 
 ## Run
-# (This is from the challenge README)
+### (This is from the challenge README)
 
 1. Open a terminal window and navigate to the challenge directory.
 2. Run `pip install pytest`.
 3. Run `pytest simple_cipher_test.py` to test the challenge.
 
 ## Troubleshooting
-# (This is from the challenge README)
+### (This is from the challenge README)
 
 - Ensure you have python installed (`python -v`)
 - Ensure you have pytest installed (`pip install pytest`)
 - Ensure you are in the challenge directory
 
 ## About Us
-# (This is from the challenge README)
+### (This is from the challenge README)
 
 The Cyndx platform harnesses the power of semantic search which is driven by
 our proprietary predictive analytics engine. We make data smarter, so that it
@@ -163,6 +163,6 @@ the right investments or investors to satisfy your needs, every time.
 Learn more: https://www.cyndx.com
 
 ## Attribution
-# (This is from the challenge README)
+### (This is from the challenge README)
 
 Simplified and adapted from the Exercism (https://exercism.io/) cipher exercise.
